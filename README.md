@@ -9,6 +9,7 @@ By storing information within a relational database, daily hospital functions ca
 
 Database Components
 The database comprises the following seven core tables:
+
 1.Physician
 
 2.Affiliated With
