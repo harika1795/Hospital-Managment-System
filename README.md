@@ -1,4 +1,4 @@
-#Hospital Management System SQL Project#
+# Hospital Management System SQL Project #
 Project Description
 Hospitals play a crucial role in delivering healthcare services to people facing various illnesses caused by factors like climate changes, work stress, and emotional trauma. Managing hospital operations manually is complex and inefficient due to the volume and variety of daily activities.
 
