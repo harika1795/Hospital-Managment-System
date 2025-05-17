@@ -1,21 +1,43 @@
+Hospital Management System
+Overview
+SQL Database implementation to manage hospital workflows including patient, employee, appointment, billing, lab tests, and feedback management.
 
+Database Specification
+Purpose
+Maintain patient and hospital employee records (doctors, nurses, lab assistants, admins).
 
-# Hospital Management System
+Track patient appointments, billing details, lab tests, and disease history.
 
-This project is a SQL-based Hospital Management System designed to streamline patient record management, appointment scheduling, and staff coordination.
+Store patient feedback linked to hospital employees.
 
-## Features
-- Efficient management of patient, doctor, and appointment data
-- Automated workflows using complex queries, joins, and triggers
-- Enhanced reporting for hospital administration and decision-making
-- Data integrity and scalability through normalized database design
+Generate reports for data visualization and decision-making.
 
-## Technologies
-- SQL (queries, stored procedures, triggers)
-- Relational database design
+Business Rules
+Employee table records all hospital employees with login info and hierarchy of who created whom.
 
-## Usage
-Clone the repository and run the SQL scripts to create and populate the database. Modify queries as needed for your hospital management needs.
+Employee roles include Admin, Doctor, Nurse, Lab Assistant.
 
-## Link
-[GitHub Repository](https://github.com/harika1795/Hospital-Managment-System)
+Patients have demographic and multiple address records.
+
+Departments represent hospital units like Dental, Pediatric, Emergency, etc.
+
+Doctors and patients can have multiple appointments.
+
+Multiple attendants may attend a patient visit.
+
+Patient visits are registered, and multiple visits are possible.
+
+Feedback is linked from patients to employees.
+
+Billing supports multiple transaction types per patient visit (Insurance, Attendant, Lab, etc.).
+
+Design Requirements
+Crow’s Foot Notation used for ERD.
+
+Primary keys explicitly specified.
+
+Relationships indicated with one and many symbols.
+
+ER Diagram
+(Insert ER Diagram image or link here)
+
