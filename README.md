@@ -1,4 +1,4 @@
-Hospital Management System SQL Project
+ ##  Hospital Management System SQL Project  ##
 Overview
 Hospitals are vital institutions striving to provide the best medical care to people suffering from various illnesses, which may arise due to climate changes, increased workload, emotional trauma, stress, and other factors. Managing daily hospital activities and records manually is highly challenging and inefficient. Therefore, a robust database system is essential to accurately maintain all hospital operations and records.
 
