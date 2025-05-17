@@ -1,43 +1,32 @@
-Hospital Management System
-Overview
-SQL Database implementation to manage hospital workflows including patient, employee, appointment, billing, lab tests, and feedback management.
+Hospital Management System SQL Project
+Project Description
+Hospitals play a crucial role in delivering healthcare services to people facing various illnesses caused by factors like climate changes, work stress, and emotional trauma. Managing hospital operations manually is complex and inefficient due to the volume and variety of daily activities.
 
-Database Specification
-Purpose
-Maintain patient and hospital employee records (doctors, nurses, lab assistants, admins).
+This SQL project demonstrates how a relational database can streamline hospital management by efficiently organizing data related to doctor schedules, patient diagnoses, medical histories, and other essential functions.
 
-Track patient appointments, billing details, lab tests, and disease history.
+Objectives
+Automate and optimize day-to-day hospital operations through a well-structured relational database.
 
-Store patient feedback linked to hospital employees.
+Enable easy storage, retrieval, and manipulation of healthcare data.
 
-Generate reports for data visualization and decision-making.
+Improve accuracy, reduce errors, and enhance the efficiency of hospital workflows.
 
-Business Rules
-Employee table records all hospital employees with login info and hierarchy of who created whom.
+Database Structure
+The system includes the following key tables:
 
-Employee roles include Admin, Doctor, Nurse, Lab Assistant.
+Physician: Details of doctors working at the hospital.
 
-Patients have demographic and multiple address records.
+Affiliated With: Relationship mapping between physicians and departments.
 
-Departments represent hospital units like Dental, Pediatric, Emergency, etc.
+Department: Information about various hospital departments.
 
-Doctors and patients can have multiple appointments.
+Nurse: Records of nursing staff.
 
-Multiple attendants may attend a patient visit.
+Patient: Patient demographic and personal information.
 
-Patient visits are registered, and multiple visits are possible.
+Patient Diagnosis: Medical diagnosis records for patients.
 
-Feedback is linked from patients to employees.
+Procedures: Information on medical procedures conducted.
 
-Billing supports multiple transaction types per patient visit (Insurance, Attendant, Lab, etc.).
-
-Design Requirements
-Crow’s Foot Notation used for ERD.
-
-Primary keys explicitly specified.
-
-Relationships indicated with one and many symbols.
-
-ER Diagram
-(Insert ER Diagram image or link here)
-
+Technologies Used
+Database Management System: MySQL
