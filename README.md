@@ -10,11 +10,17 @@ By storing information within a relational database, daily hospital functions ca
 Database Components
 The database comprises the following seven core tables:
 1.Physician
+
 2.Affiliated With
+
 3.Department
+
 4.Nurse
+
 5.Patient
+
 6.Patient Diagnosis
+
 7.Procedures
 
 Technology Stack
